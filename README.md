@@ -1,3 +1,3 @@
 # 0x09. Implement a design from scratch
 
-[Holberton-Headphones Page](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210119T164639Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2a9283e2cdd209efa2f9d114f6d6bc33f0003a58e9e58136cd9b17fda2fc4915)
+![Holberton-Headphones Page](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210119T164639Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2a9283e2cdd209efa2f9d114f6d6bc33f0003a58e9e58136cd9b17fda2fc4915)
