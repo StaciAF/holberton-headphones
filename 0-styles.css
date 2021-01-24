@@ -1,0 +1,24 @@
+/* Styling for Hot Takes Website */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Source Sans Pro', bold;
+}
+a:hover, a:active {
+    color: #FF6565;
+}
+
+button:hover, button:active {
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1000px;
+}
+
+@media (max-width: 480px) {
+    
+}
