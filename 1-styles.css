@@ -354,6 +354,12 @@ template {
     --text-color-secondary: var(--brand-color-black);
 }
 
+/* adds universal box sizing rule */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -404,14 +410,15 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    white-space: nowrap;
 }
 
 .menu-bar {
     display: flex;
     width: 255px;
     height: 15px;
-    margin-top: 28px;
-    margin-right:201px;
+    margin-top: 38px;
+    margin-right: 115px;
     justify-content: space-around;
 }
 
@@ -421,6 +428,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    margin-left: 35px;
 }
 
 nav ul li a {
