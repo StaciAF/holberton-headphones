@@ -390,6 +390,10 @@ button:hover, button:active {
     opacity: 0.9;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* Main Section */
 
 .main-image {
@@ -397,8 +401,9 @@ button:hover, button:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
     width: 1400px;
     height: 800px;
 }
@@ -412,7 +417,7 @@ button:hover, button:active {
 .logo {
     float: left;
     padding: 30px;
-    margin-left: 45px;
+    margin-left: 55px;
 }
 
 .menu-bar {
@@ -426,3 +431,57 @@ button:hover, button:active {
     white-space: nowrap;
     padding-left: 25px;
 }
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.hero-section {
+    width: 637px;
+    height: 313px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--text-color-primary);
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.hero-section h2 {
+    font-size: 32px;
+}
+
+.hero-section .hero-subheader {
+    margin-top: -25px;
+}
+
+.CTA-button {
+    width: 162px;
+    height: 44px;
+    font-family: 'Source Sans Pro', semibold;
+    font-size: 14px;
+    color: var(--text-color-primary);
+    background: var(--brand-color-red);
+    border-radius: 22px;
+    border: none;
+    margin: 30px;
+}
+
+.what-we-do-section {
+    width: 637px;
+    height: 184px;
+    position: relative;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 125px;
+}
+
