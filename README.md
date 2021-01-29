@@ -28,11 +28,11 @@ Building a web page the right way, is not easy - expect if you put in place stro
 * avoid as more as you can super specific CSS selector
 * simple HTML structure - div containers are your friend!
 
-**Desktop:**
+:desktop_computer:**Desktop:**
 
 ![Desktop View](/images/desktop_view.png)
 
-**Mobile:**
+:iphone:**Mobile:**
 
 ![Mobile View](/images/mobile_view.png)
 
