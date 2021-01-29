@@ -385,8 +385,9 @@ button:hover, button:active {
     opacity: 0.9;
 }
 
-main {
+body {
     max-width: 1000px;
+    align-items: center;
 }
 
 /* Hero Section */
@@ -489,4 +490,9 @@ nav ul li a {
     background: var(--brand-color-red);
     border-radius: 22px;
     border: none;
+}
+
+.CTA-button:hover,
+.CTA-button::after {
+    opacity: 0.9;
 }
