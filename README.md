@@ -4,4 +4,4 @@
 
 :headphones: **Hot Takes Headphones Homepage**
 
-![Desktop View] (Users/staciaf/Desktop/Holberton/holberton_headphones/images/desktop screen)
+![Desktop View] (Desktop screen.png)
