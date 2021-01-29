@@ -36,3 +36,11 @@ Building a web page the right way, is not easy - expect if you put in place stro
 
 ![Mobile View](/images/mobile_view.png)
 
+#### 2. "What we do..." section mandatory
+Copy files from the previous task.
+
+For this second task: **create the “What we do…” section**
+
+**What We Do Section:**
+
+![Section](/images/what_we_do.png)
