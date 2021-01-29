@@ -31,5 +31,7 @@ Building a web page the right way, is not easy - expect if you put in place stro
 **Desktop:**
 ![Desktop View](/images/desktop_view.png)
 
-**Mobile:**![Mobile View](/images/mobile_view.png)
+**Mobile:**
+
+![Mobile View](/images/mobile_view.png)
 
