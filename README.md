@@ -4,4 +4,3 @@
 
 :headphones: **Hot Takes Headphones Homepage**
 
-![Desktop View] (Desktop screen.png)
