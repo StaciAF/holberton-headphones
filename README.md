@@ -17,7 +17,7 @@ Interactions note:
 * button hover/active: ```opacity: 0.9```
 * max width of the content: ```1000px``` centered in the page
 
-:bangbang: **Font:** source-sans-pro
+:bangbang: **Font:** ```source-sans-pro```
 
 #### 1. Header mandatory
 Building a web page the right way, is not easy - expect if you put in place strong foundations:
@@ -29,6 +29,7 @@ Building a web page the right way, is not easy - expect if you put in place stro
 * simple HTML structure - div containers are your friend!
 
 **Desktop:**
+
 ![Desktop View](/images/desktop_view.png)
 
 **Mobile:**
