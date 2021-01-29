@@ -4,3 +4,7 @@
 
 :headphones: **Hot Takes Headphones Homepage**
 
+### Tasks
+
+#### 0. Read and be familiar with Figma mandatory
+[Figma File](https://intranet.hbtn.io/rltoken/NxsDNicWs5KSlsR94kt52A)
