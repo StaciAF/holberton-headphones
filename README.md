@@ -12,9 +12,22 @@
 For this task, please write an amazing README.md
 
 Interactions note:
-the web page must switch to the mobile version when the screen width is ```480px``` or less
-links hover/active: ```#FF6565```
-button hover/active: ```opacity: 0.9```
-max width of the content: ```1000px``` centered in the page
+* the web page must switch to the mobile version when the screen width is ```480px``` or less
+* links hover/active: ```#FF6565```
+* button hover/active: ```opacity: 0.9```
+* max width of the content: ```1000px``` centered in the page
 
 :bangbang: **Font:** source-sans-pro
+
+#### 1. Header mandatory
+Building a web page the right way, is not easy - expect if you put in place strong foundations:
+
+* reset CSS styling
+* use variables
+* simple/“as generic as you can” CSS selectors
+* avoid as more as you can super specific CSS selector
+* simple HTML structure - div containers are your friend!
+
+**Desktop:**
+![Desktop View](/images/desktop_view.png)
+
