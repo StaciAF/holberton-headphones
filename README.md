@@ -3,3 +3,5 @@
 :school_satchel: **Web Design for Holberton School**
 
 :headphones: **Hot Takes Headphones Homepage**
+
+![Desktop View] (Users/staciaf/Desktop/Holberton/holberton_headphones/images/desktop screen)
