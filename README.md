@@ -41,6 +41,38 @@ Copy files from the previous task.
 
 For this second task: **create the “What we do…” section**
 
-**What We Do Section:**
+**Section:**
 
-![Section](/images/what_we_do.png)
+![What We Do Section](/images/what_we_do.png)
+
+#### 3. "Our results" section mandatory
+Copy files from the previous task.
+
+For this third task: **create the “Our results” section**
+
+**Section:**
+
+![Our Results Section](/images/our_results.png)
+
+#### 4. Contact us mandatory
+Copy files from the previous task.
+
+A good landing page has always a contact form.
+
+You are free to add any animations and/or constraints on fields.
+
+**Section:**
+
+![Contact Us Section](/images/contact_us.png)
+
+#### 5. Footer mandatory
+Copy files from the previous task.
+
+Last piece of the page… the Footer!
+
+**Section:**
+
+![Footer Section](/images/site_footer.png)
+
+
+
