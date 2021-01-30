@@ -473,6 +473,7 @@ p {
     border: none;
     margin: 30px;
 }
+/* What We Do Section */
 
 .what-we-do-section {
     width: 637px;
@@ -499,25 +500,44 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(10%, 50%); */
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 50px;
+}
+
+.icons .icon_details {
+    width: 1002px;
+    height: 193px;
+}
+
+.icon_details h3 {
+    width: 207px;
+    height: 26px;
+}
+
+.icon_details p {
+    width: 207px;
+    height: 52px;
 }
 
 .icons .icon-1 {
     width: 207px;
-    height: 180px;   
+    height: 180px; 
+    margin: 0 25px;  
 }
 .icons .icon-2 {
     width: 207px;
     height: 180px;
+    margin: 0 25px;
 }
 .icons .icon-3 {
     width: 207px;
-    height: 180px;   
+    height: 180px; 
+    margin: 0 25px;  
 }
 .icons .icon-4 {
     width: 207px;
-    height: 180px;   
+    height: 180px; 
+    margin: 0 25px;  
 }
 
 /* Holberton School Icons */
