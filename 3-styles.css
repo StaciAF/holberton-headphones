@@ -558,7 +558,7 @@ p {
     top: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .results-header .results-paragraph {
@@ -630,25 +630,56 @@ p {
     margin: 0 -125px;
 }
 
-.flex-container .contact-section {
-    width: 335px;
-    height: 373px;
-    position: relative;
+.contact-section {
+    /* width: 50%;
+    height: 50%; */
     left: 50%;
-    top: 75%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 275px; 
+    top: 50%;
+    transform: translate(40%, 40%);
+    /* margin: 0 auto; */
+    /* display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;   
 }
 
-.contact-us-header .
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px
+}
 
-.contact-us-header h2 {
+.input-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input [type=text] {
+    width: 335px;
+}
+
+.contact-us h2 {
+    /* font-size: 32px;
     width: 146px;
     height: 40px;
-    font-size: 32px;
-    
+    margin-top: 15px; */
+    position: relative;
+    width: 146px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 10%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+    margin-top: 75px;
 }
+
 
 /* Holberton School Icons */
 
