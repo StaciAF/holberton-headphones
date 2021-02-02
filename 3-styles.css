@@ -631,6 +631,8 @@ p {
 }
 
 .contact-section {
+    width: 1400px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -643,33 +645,20 @@ p {
     align-items: center;
     width: 335px;
     height: 373px;
+    top: 25%;
+    left: 25%;
+    transform: translate(-15%, 0%);
 }
 
 .contact-us h2 {
-    /* font-size: 32px;
     width: 146px;
     height: 40px;
-    margin-top: 15px; */
-    /* position: relative; */
-    width: 146px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* left: 10%;
-    top: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center; */
-    /* margin-top: 125px; */
-    padding-top: 185px;
     margin-bottom: 75px;
 }
 
 .input-row {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
 }
 
 label {
