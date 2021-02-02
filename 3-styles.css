@@ -631,14 +631,7 @@ p {
 }
 
 .contact-section {
-    /* width: 50%;
-    height: 50%; */
-    left: 50%;
-    top: 50%;
-    transform: translate(40%, 40%);
-    /* margin: 0 auto; */
-    /* display: flex;
-    /* flex-direction: column; */
+    display: flex;
     justify-content: center;
     align-items: center;   
 }
@@ -648,18 +641,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 335px
-}
-
-.input-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-input [type=text] {
     width: 335px;
+    height: 373px;
 }
 
 .contact-us h2 {
@@ -667,7 +650,7 @@ input [type=text] {
     width: 146px;
     height: 40px;
     margin-top: 15px; */
-    position: relative;
+    /* position: relative; */
     width: 146px;
     height: 40px;
     display: flex;
@@ -677,9 +660,51 @@ input [type=text] {
     top: 20%;
     transform: translate(-50%, -50%);
     text-align: center; */
-    margin-top: 75px;
+    /* margin-top: 125px; */
+    padding-top: 185px;
+    margin-bottom: 75px;
 }
 
+.input-row {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+label {
+    float: left;
+}
+
+input {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #979797;
+}
+
+input [type=text] {
+    width: 335px;
+}
+
+.input-row .input {
+    width: 335px;
+    height: 29px;
+    margin-bottom: 25px;
+}
+
+.CTA-button-center {
+    width: 162px;
+    height: 44px;
+    font-family: 'Source Sans Pro', semibold;
+    font-size: 14px;
+    color: var(--text-color-primary);
+    background: var(--brand-color-red);
+    border-radius: 22px;
+    border: none;
+    margin: 30px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
 
 /* Holberton School Icons */
 
