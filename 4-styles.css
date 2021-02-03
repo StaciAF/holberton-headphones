@@ -394,7 +394,7 @@ p {
     line-height: 1.5;
 }
 
-/* Main Section */
+/* Header/Main Section */
 
 .main-image {
     background-image: url("/images/headphones_hero_1.jpg");
@@ -425,11 +425,7 @@ p {
 }
 
 .flex-container {
-    /* position: relative; */
     display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-content: center; */
 }
 
 .flex-container .hero-section {
@@ -441,11 +437,9 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 175px; 
-    /* position: relative; */
     width: 637px;
     height: 313px;
     display: flex;
-    /* flex-direction: column; */
     text-align: center;
     color: var(--text-color-primary);
 }
@@ -458,7 +452,7 @@ p {
     width: 100%;
     left: 50%;
     top: 50%;
-    transform: translate(15%, 110%);
+    transform: translate(20%, 110%);
 }
 
 .hero-section h2 {
@@ -482,6 +476,7 @@ p {
     padding: 15px;
 }
 
+/* What We Do Section */
 
 .flex-container .what-we-do-section {
     width: 637px;
@@ -503,11 +498,6 @@ p {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    /* width: 1002px;
-    height: 193px;
-    top: 50%;
-    left: 50%;
-    transform: translate(10%, 50%); */
     justify-content: space-evenly;
     padding-top: 50px;
 }
@@ -548,6 +538,8 @@ p {
     margin: 0 25px;  
 }
 
+/* Our Results Section */
+
 .flex-container .our-results-section {
     width: 100%;
     height: 650px;
@@ -583,17 +575,11 @@ p {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    /* width: 1002px;
-    height: 193px;
-    top: 50%;
-    left: 50%;
-    transform: translate(10%, 50%); */
     justify-content: space-evenly;
     padding-top: 100px;
 }
 
 .data {
-    /* z-index: 100; */
     position: relative;
     color: var(--text-color-primary);
     left: 45px;
@@ -638,6 +624,8 @@ p {
     margin: 0 -125px;
 }
 
+/* Contact Us Section */
+
 .contact-section {
     position: relative;
     width: 100%;
@@ -652,11 +640,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 373px;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, 0%);
 }
 
 .contact-us h2 {
@@ -704,6 +687,8 @@ input [type=text] {
     margin-top: 70px;
 }
 
+/* Footer */
+
 footer {
     background-color: #071629;
     width: 100%;
@@ -729,15 +714,16 @@ path {
     fill: var(--brand-color-white);
 }
 
-.social-icons {
+.footer-container .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 150px;
+
 }
 
 .social-nav {
     padding-top: 80px;
+    margin-right: 150px;
 }
 
 ul li {
@@ -752,8 +738,8 @@ ul li {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-right: 325px;
-    padding-top: 75px;
+    margin-top: 5%;
+    padding-left: 55px;
 }
 
 .footer-copyright .copyright-text {
