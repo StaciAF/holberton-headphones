@@ -408,13 +408,13 @@ p {
 .logo {
     float: left;
     padding: 50px;
-    margin-left: 195px;
+    margin-left: 15%;
 }
 
 .menu-bar {
     float: right;
     margin-top: 45px;
-    padding-right: 195px;
+    padding-right: 15%;
     
 }
 
