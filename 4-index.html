@@ -25,23 +25,21 @@
         </ul>
     </nav>
     <div class="main-image">
-        <div class="header-container">
-            <header>
-                <div class="logo"><a href="/"><img src="./logo_headphones.png" alt="Hot Take logo" width="161px"
-                            height="32px"></a></div>
-                <nav id="a11y-primary-nav" tabindex="-1">
-                    <div class="menu-bar">
-                        <ul>
-                            <li class="what"><a href="#what">what we do</a></li>
-                            <li class="results"><a href="#results">our results</a></li>
-                            <li class="content"><a href="#contact">contact us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
+        <header class="header-container">
+            <div class="logo"><a href="/"><img src="./logo_headphones.png" alt="Hot Take logo" width="161px"
+                        height="32px"></a></div>
+            <nav id="a11y-primary-nav" tabindex="-1">
+                <div class="menu-bar">
+                    <ul>
+                        <li class="what"><a href="#what">what we do</a></li>
+                        <li class="results"><a href="#results">our results</a></li>
+                        <li class="content"><a href="#contact">contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="flex-container">
-            <main class="hero-section">
+            <section class="hero-section">
                 <div class="hero-content">
                     <h2>Lorem ipsum dolor set amet lorem ipsum</h2>
                     <p class="hero-subheader">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
@@ -149,17 +147,18 @@
         <section class="contact-section">
             <div class="contact-us">
                 <h2>Contact Us</h2>
-                <form class="form-inline" action="contact-company" method="post">
+                <form action="contact-company" method="post">
                     <div class="input-row">
-                        <label for="name">Name</label>
+                        <label for="name" class="visually-hidden">Name</label>
                         <div class="input">
                             <input style="width: 335px" type="text" name="name" id="guest_name">
                         </div>
-                        <label for="email">Email</label>
+                        <label for="email" class="visually-hidden">Email</label>
                         <div class="input">
-                            <input style="width: 335px" type="email" name="email" id="guest_email">
+                            <input style="width: 335px" type="email" name="email" id="guest_email" class="form-control"
+                                autocomplete="email" aria-required="true" required>
                         </div>
-                        <label for="message">Message</label>
+                        <label for="message" class="visually-hidden">Message</label>
                         <input style="width: 335px" type="text" name="message" id="guest_message">
                     </div>
                     <button href="#" class="CTA-button-center" type="button">CALL TO ACTION</button>
@@ -168,14 +167,14 @@
         </section>
         </div>
     </main>
-    <div class="footer-container">
-        <footer>
+    <footer class="footer-container">
+        <div class="footer">
             <div class="logo"><a href="/"><img src="./logo_headphones.png" alt="Hot Take logo" width="161px"
                         height="32px"></a></div>
             <div class="social-icons">
                 <ul class="social-nav">
                     <li class="social-nav-item">
-                        <a href="https://www.facebook.com/HolbertonSchool/" class="social-link">
+                        <a href="https://www.facebook.com/HolbertonSchool/" class="social-link" aria-label="Facebook">
                             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
                                 <title>
                                     Facebook icon
@@ -186,7 +185,7 @@
                         </a>
                     </li>
                     <li class="social-nav-item">
-                        <a href="https://twitter.com/holbertonschool" class="social-link">
+                        <a href="https://twitter.com/holbertonschool" class="social-link" aria-label="Twitter">
                             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
                                 <title>
                                     Twitter icon
@@ -197,7 +196,7 @@
                         </a>
                     </li>
                     <li class="social-nav-item">
-                        <a href="https://www.instagram.com/holbertonschool/" class="social-link">
+                        <a href="https://www.instagram.com/holbertonschool/" class="social-link" aria-label="Instagram">
                             <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
                                 <title>
                                     Instagram icon
@@ -214,8 +213,8 @@
                     <p>©headphones 2020</p>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
