@@ -424,17 +424,7 @@ p {
     padding-left: 75px;
 }
 
-/* .flex-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
-
 .flex-container .hero-section {
-    /* position: relative; */
-    /* left: 50%;
-    top: 75%;
-    transform: translate(-50%, -50%); */
     display: flex;
     text-align: center;
     margin-top: 175px; 
@@ -567,7 +557,7 @@ p {
     top: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 75px;
+    margin-top: 175px;
 }
 
 .results-header .results-paragraph {

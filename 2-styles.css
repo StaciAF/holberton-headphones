@@ -498,7 +498,7 @@ p {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 50px;
 }
 
@@ -520,22 +520,22 @@ p {
 .icons .icon-1 {
     width: 207px;
     height: 180px; 
-    margin: 0 25px;  
+    margin: 0 45px;  
 }
 .icons .icon-2 {
     width: 207px;
     height: 180px;
-    margin: 0 25px;
+    margin: 0 45px;
 }
 .icons .icon-3 {
     width: 207px;
     height: 180px; 
-    margin: 0 25px;  
+    margin: 0 45px;  
 }
 .icons .icon-4 {
     width: 207px;
     height: 180px; 
-    margin: 0 25px;  
+    margin: 0 45px;  
 }
 
 /* Our Results Section */
