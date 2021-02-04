@@ -396,6 +396,11 @@ p {
 
 .off-screen .skip-link:focus {
     color: var(--brand-color-red);
+    opacity: 1.0;
+}
+
+.off-screen .skip-link {
+    opacity: 0.0;
 }
 
 /* Header/Main Section */
@@ -541,6 +546,13 @@ p {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 375px) {
+    .icons {
+        flex-direction: column;
+    }
+}
+
 /* Our Results Section */
 
 .flex-container .our-results-section {
@@ -630,6 +642,12 @@ p {
 @media (max-width: 768px) {
     .pentagons {
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px) {
+    .pentagons {
+        flex-direction: column;
     }
 }
 
