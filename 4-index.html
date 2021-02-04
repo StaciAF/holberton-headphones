@@ -13,12 +13,23 @@
 </head>
 
 <body>
+    <!-- Skip Links -->
+    <nav aria-label="Skip links">
+        <ul class="off-screen">
+            <li>
+                <a href="#a11y-primary-nav" class="skip-link">Skip to primary navigation</a>
+            </li>
+            <li>
+                <a href="#a11y-main-content" class="skip-link">Skip to main content</a>
+            </li>
+        </ul>
+    </nav>
     <div class="main-image">
         <div class="header-container">
             <header>
                 <div class="logo"><a href="/"><img src="./logo_headphones.png" alt="Hot Take logo" width="161px"
                             height="32px"></a></div>
-                <nav>
+                <nav id="a11y-primary-nav" tabindex="-1">
                     <div class="menu-bar">
                         <ul>
                             <li class="what"><a href="#what">what we do</a></li>
@@ -45,112 +56,118 @@
             </main>
         </div>
     </div>
-    <div class="flex-container">
-        <section class="what-we-do-section">
-            <div class="what-header">
-                <h2>What we do...</h2>
-                <p class="what-paragraph">
-                    Lorem ipsum dolor sit amet, consectutur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquio esea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillium dolore eu fugiat nulla pariatur.</p>
-            </div>
-            <div class="icons">
-                <div class="icon-1">
-                    <i class="holberton_school-icon-ic_sound"></i>
-                    <div class="icon_details">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
+    <main id="a11y-main-content" tabindex="-1">
+        <div class="flex-container">
+            <section class="what-we-do-section">
+                <div class="what-header">
+                    <h2>What we do...</h2>
+                    <p class="what-paragraph">
+                        Lorem ipsum dolor sit amet, consectutur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquio esea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillium dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="icons">
+                    <div class="icon-1">
+                        <i class="holberton_school-icon-ic_sound"></i>
+                        <div class="icon_details">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="icon-2">
+                        <i class="holberton_school-icon-ic_video"></i>
+                        <div class="icon_details">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="icon-3">
+                        <i class="holberton_school-icon-ic_music"></i>
+                        <div class="icon_details">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="icon-4">
+                        <i class="holberton_school-icon-ic_hearing"></i>
+                        <div class="icon_details">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
+                        </div>
                     </div>
                 </div>
-                <div class="icon-2">
-                    <i class="holberton_school-icon-ic_video"></i>
-                    <div class="icon_details">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
-                    </div>
-                </div>
-                <div class="icon-3">
-                    <i class="holberton_school-icon-ic_music"></i>
-                    <div class="icon_details">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
-                    </div>
-                </div>
-                <div class="icon-4">
-                    <i class="holberton_school-icon-ic_hearing"></i>
-                    <div class="icon_details">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectutur adipiscing elit</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="flex-container">
-        <section class="our-results-section">
-            <div class="results-header">
-                <h2>Our results speak for themselves</h2>
-                <p class="results-paragraph">
-                    Lorem ipsum dolor sit amet, consectutur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquio esea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillium dolore eu fugiat nulla pariatur.
-                </p>
-            </div>
-            <div class="pentagons">
-                <div class="pent-1">
-                    <img src="/images/pentagone.png" alt="our-results-data1" width="185px">
-                    <div class="data">
-                        <h3>+2%</h3>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>
-                <div class="pent-2">
-                    <img src="/images/pentagone.png" alt="our-results-data2" width="185px">
-                    <div class="data">
-                        <h3>+2%</h3>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>
-                <div class="pent-3 ">
-                    <img src="/images/pentagone.png" alt="our-results-data3" width="185px">
-                    <div class="data">
-                        <h3>+2%</h3>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>
-                <div class="pent-4">
-                    <img src="/images/pentagone.png" alt="our-results-data4" width="185px">
-                    <div class="data">
-                        <h3>+2%</h3>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="contact-section">
-        <div class="contact-us">
-            <h2>Contact Us</h2>
-            <form class="form-inline" action="contact-company" method="post">
-                <div class="input-row">
-                    <label for="name">Name</label>
-                    <div class="input">
-                        <input style="width: 335px" type="text" name="name" id="guest_name">
-                    </div>
-                    <label for="email">Email</label>
-                    <div class="input">
-                        <input style="width: 335px" type="email" name="email" id="guest_email">
-                    </div>
-                    <label for="message">Message</label>
-                    <input style="width: 335px" type="text" name="message" id="guest_message">
-                </div>
-                <button href="#" class="CTA-button-center" type="button">CALL TO ACTION</button>
-            </form>
+            </section>
         </div>
-    </section>
-    </div>
+        <div class="flex-container">
+            <section class="our-results-section">
+                <div class="results-header">
+                    <h2>Our results speak for themselves</h2>
+                    <p class="results-paragraph">
+                        Lorem ipsum dolor sit amet, consectutur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquio esea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillium dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="pentagons">
+                    <div class="pent-1">
+                        <img src="/images/pentagone.png" alt="our-results-data1" width="185px">
+                        <div class="data">
+                            <h3>+2%</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                    <div class="pent-2">
+                        <img src="/images/pentagone.png" alt="our-results-data2" width="185px">
+                        <div class="data">
+                            <h3>+2%</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                    <div class="pent-3 ">
+                        <img src="/images/pentagone.png" alt="our-results-data3" width="185px">
+                        <div class="data">
+                            <h3>+2%</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                    <div class="pent-4">
+                        <img src="/images/pentagone.png" alt="our-results-data4" width="185px">
+                        <div class="data">
+                            <h3>+2%</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="contact-section">
+            <div class="contact-us">
+                <h2>Contact Us</h2>
+                <form class="form-inline" action="contact-company" method="post">
+                    <div class="input-row">
+                        <label for="name">Name</label>
+                        <div class="input">
+                            <input style="width: 335px" type="text" name="name" id="guest_name">
+                        </div>
+                        <label for="email">Email</label>
+                        <div class="input">
+                            <input style="width: 335px" type="email" name="email" id="guest_email">
+                        </div>
+                        <label for="message">Message</label>
+                        <input style="width: 335px" type="text" name="message" id="guest_message">
+                    </div>
+                    <button href="#" class="CTA-button-center" type="button">CALL TO ACTION</button>
+                </form>
+            </div>
+        </section>
+        </div>
+    </main>
     <div class="footer-container">
         <footer>
             <div class="logo"><a href="/"><img src="./logo_headphones.png" alt="Hot Take logo" width="161px"
