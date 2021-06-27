@@ -4,6 +4,10 @@
 
 :headphones: **Hot Takes Headphones Homepage**
 
+#### :dart: Connect 
+* <a href="https://www.linkedin.com/in/staci-af/" target="_top">Staci AF -- LinkedIn</a>
+* <a href="https://twitter.com/wife_tiny" target="_top">tiny_wife -- Twitter</a>
+
 ### Tasks
 
 #### 0. Read and be familiar with Figma mandatory
